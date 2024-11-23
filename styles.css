@@ -1,0 +1,11 @@
+:root {
+    --background-color: rgb(206, 202, 202);
+}
+
+
+body {
+    background-color: var(--background-color);
+}
+.header {
+   
+}
