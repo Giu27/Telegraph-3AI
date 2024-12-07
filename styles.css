@@ -1,11 +1,18 @@
+/*Generale*/
 :root {
     --background-color: rgb(206, 202, 202);
     --text-color: black;
     --titles-color: rgb(58, 153, 185);
+    --elements-color: brown;
 }
 body {
     background-color: var(--background-color);
     color: var(--text-color)
+}
+#Titolo{
+    flex: 1 1 auto;
+    margin: 0px;
+    text-align: center;
 }
 .sottotitolo {
     color:var(--titles-color);
@@ -17,24 +24,6 @@ header {
     width: 100%;
     height: auto;
     color:var(--titles-color);
-}
-#Titolo{
-    margin-left: auto;
-    margin-right: auto;
-    flex: 1 1 auto;
-    margin: 0px;
-    text-align: center;
-}
-.giorni{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.giorni a{
-    flex: 1 1 auto;
-    color: brown;
 }
 #github-page{
     flex: 1 0;
@@ -48,4 +37,24 @@ header {
     margin-right: auto;
     max-width: 60px;
     height: auto;
+}
+#Titolo a{
+    color: var(--titles-color);
+    text-decoration: none;
+}
+/*Main home*/
+.giorni{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.giorni a{
+    flex: 1 1 auto;
+    color: var(--elements-color);
+}
+/*Orario*/
+.materia {
+    color: var(--elements-color);
 }
