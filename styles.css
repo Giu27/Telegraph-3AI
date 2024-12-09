@@ -42,13 +42,20 @@ header {
     color: var(--titles-color);
     text-decoration: none;
 }
+footer {
+    font-size: 13px;
+}
 /*Main home*/
 .giorni{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     flex-direction: row;
+    max-width: fit-content;
     justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10vw;
 }
 .giorni a{
     flex: 1 1 auto;
@@ -56,5 +63,8 @@ header {
 }
 /*Orario*/
 .materia {
+    color: var(--elements-color);
+}
+#giornoPr, #giornoSu {
     color: var(--elements-color);
 }
