@@ -68,6 +68,9 @@ footer {
 }
 .giorni a{
     flex: 1 1 auto;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*Orario*/
 .materia {
