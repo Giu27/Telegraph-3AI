@@ -9,6 +9,9 @@ body {
     background-color: var(--background-color);
     color: var(--text-color)
 }
+a {
+    color: var(--elements-color);
+}
 #Titolo{
     flex: 1 1 auto;
     margin: 0px;
@@ -59,12 +62,8 @@ footer {
 }
 .giorni a{
     flex: 1 1 auto;
-    color: var(--elements-color);
 }
 /*Orario*/
 .materia {
-    color: var(--elements-color);
-}
-#giornoPr, #giornoSu {
     color: var(--elements-color);
 }
