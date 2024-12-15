@@ -12,6 +12,9 @@ body {
 a {
     color: var(--elements-color);
 }
+a:hover {
+    color:var(--titles-color)
+}
 #Titolo{
     flex: 1 1 auto;
     margin: 0px;
@@ -44,6 +47,9 @@ header {
 #Titolo a{
     color: var(--titles-color);
     text-decoration: none;
+}
+#Titolo a:hover{
+    color:rgb(0, 145, 255)
 }
 footer {
     font-size: 13px;
