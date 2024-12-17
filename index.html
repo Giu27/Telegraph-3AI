@@ -5,12 +5,13 @@
         <title>3A Informatica</title>
         <link href="styles.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="scripts/utils.js"></script>
     </head>
     <body>
-        <header>
-            <h1 id="Titolo"><a href="index.html">3A Informatica</a></h1>
-            <a id="github-page" href="https://github.com/Giu27"><img src="images/githublogo.svg" alt="pagina github"></a>
-        </header>
+        <div id="header"></div>
+        <script>
+            load_element("interface-elements/header.html").then(header => {document.getElementById("header").innerHTML = header;});
+        </script>
         <main>
             <section id="orario">
                 <h3 class="sottotitolo">Orario Settimanale:</h3>
@@ -31,9 +32,9 @@
                 <p>Nessuno :)</p>
             </section>
         </main>
-        <footer>
-            <p>Offerto dal Presidente, vietata la ridistribuzione</p>
-            <p>Presidente è un marchio registrato</p>
-        </footer>
+        <div id="footer"></div>
+        <script>
+            load_element("interface-elements/footer.html").then(footer => {document.getElementById("footer").innerHTML = footer;});
+        </script>
     </body>
 </html>
