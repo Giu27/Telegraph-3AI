@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <title>FAQ</title>
+        <link href="../styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../scripts/utils.js"></script>
+    </head>
+    <body>
+        <div id="header"></div>
+        <script>
+            load_element("../interface-elements/header.html").then(header => {document.getElementById("header").innerHTML = header;});
+        </script>
+        <main>
+            <h2 class="sottotitolo">Domande Frequenti</h2>
+            <section>
+                <p><strong class="materia">Q:</strong> Dove si trova la classe?</p>
+                <p><strong class="sottotitolo">A:</strong> Ammezzato.</p>
+            </section>
+            <section>
+                <p><strong class="materia">Q:</strong> Quali professori sono cambiati rispetto allo scorso anno?</p>
+                <p><strong class="sottotitolo">A:</strong></p>
+                <ul>
+                    <li>Sistemi e reti: <strong class="sottotitolo">Borzì</strong></li>
+                    <li>Informatica: <strong class="sottotitolo">Musumarra</strong></li>
+                    <li>Telecomunicazioni: <strong class="sottotitolo">Pulvirenti</strong></li>
+                    <li>TPSIT: <strong class="sottotitolo">Pappalardo</strong></li>
+                    <li>Laboratorio di Informatica e TPSIT: <strong class="sottotitolo">Cosentino</strong></li>
+                    <li>Laboratorio di Sistemi: <strong class="sottotitolo">Marino</strong></li>
+                    <li>Laboratorio di Telecomunicazioni: <strong class="sottotitolo">Castro</strong></li>
+                </ul>
+            </section>
+            <section>
+                <p><strong class="materia">Q:</strong> Chi è il coordinatore del consiglio di classe?</p>
+                <p><strong class="sottotitolo">A:</strong> La Musumarra, con la Previtera come segretaria.</p>
+            </section>
+            <section>
+                <p><strong class="materia">Q:</strong> Chi sono i rappresentanti di classe?</p>
+                <p><strong class="sottotitolo">A:</strong> C. Giuseppe e C. Valerio Pietro.</p>
+            </section>
+        </main>
+        <div id="footer"></div>
+        <script>
+            load_element("../interface-elements/footer.html").then(footer => {document.getElementById("footer").innerHTML = footer;});
+        </script>
+    </body>
+</html>
