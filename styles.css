@@ -72,7 +72,15 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
-/*Orario*/
+/*Orario e nomi memoriale*/
 .materia {
     color: var(--elements-color);
+}
+
+#memoriale {
+    background-color:rgb(192, 216, 216);
+    padding: 20px;
+    margin:auto;
+    max-width: fit-content;
+    border-radius: 50px;
 }

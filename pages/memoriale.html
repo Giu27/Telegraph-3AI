@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <title>Memoriale</title>
+        <link href="../styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../scripts/utils.js"></script>
+    </head>
+    <body>
+        <div id="header"></div>
+        <script>
+            load_element("../interface-elements/header.html").then(header => {document.getElementById("header").innerHTML = header;});
+        </script>
+        <main>
+            <h2 class="sottotitolo">Memoriale</h2>
+            <p>Pagina dedicata a commemorare i <strong class="materia">caduti in battaglia</strong>, in questi anni di superiori:</p>
+            <div id="memoriale">
+                <h3 class="sottotitolo">Bocciati in primo:</h3>
+                <section>
+                    <ul>
+                        <li class="materia">T. Alessio</li>
+                    </ul>
+                </section>
+                <h3 class="sottotitolo">Bocciati in secondo:</h3>
+                <section>
+                    <ul>
+                        <li class="materia">S. Angelo</li>
+                        <li class="materia">D.B. Leonardo</li>
+                        <li class="materia">L. Marco</li>
+                        <li class="materia">P. David</li>
+                        <li class="materia">C. Gabriel</li>
+                        <li class="materia">C. Luciano</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <div id="footer"></div>
+        <script>
+            load_element("../interface-elements/footer.html").then(footer => {document.getElementById("footer").innerHTML = footer;});
+        </script>
+    </body>
+</html>
