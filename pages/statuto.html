@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <title>Statuto</title>
+        <link href="../styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../scripts/utils.js"></script>
+    </head>
+    <body>
+        <div id="header"></div>
+        <script>
+            load_element("../interface-elements/header.html").then(header => {document.getElementById("header").innerHTML = header;});
+        </script>
+        <main>
+            <h2 class="sottotitolo">Statuto della 3AI</h2>
+            <section id="cariche">
+                <h3 class="materia">Cariche correnti:</h3>
+                <ul>
+                    <li><strong class="sottotitolo">Presidente:</strong> C. Giuseppe</li>
+                    <li><strong class="sottotitolo">Primo Ministro:</strong> C. Valerio Pietro</li>
+                    <li><strong class="sottotitolo">Ministro dell'Interno:</strong> S. Giovanni</li>
+                    <li><strong class="sottotitolo">Ministro del Digitale:</strong> C. Michele Mario</li>
+                    <li><strong class="sottotitolo">Ministro degli Esteri:</strong> G.D. Menusha Chavindu</li>
+                </ul>
+                <h3 class="materia">Forze Armate:</h3>
+                <ul>
+                    <li><strong class="sottotitolo">Comandante in Capo:</strong> C. Giuseppe</li>
+                    <li><strong class="sottotitolo">Esercito:</strong> G. Samuele</li>
+                    <li><strong class="sottotitolo">Marina:</strong> R. Francesco</li>
+                    <li><strong class="sottotitolo">Aeronautica:</strong> B. Lorenzo Elia</li>
+                    <li><strong class="sottotitolo">Intelligence:</strong> C. Ettore Carmine</li>
+                </ul>
+            </section>
+            <hr>
+            <section id="statuto">
+                <h1>Statuto Della 3AI</h1>
+                <ol>
+                    <li>La 3AI è una Repubblica parlamentare pluripartitica e democratica</li>
+                    <li>ll Primo Ministro è eletto dal popolo a suffragio universale</li>
+                    <li>Il Primo Ministro è incaricato di formare il nuovo governo, che deve poi essere approvato dal Presidente</li>
+                    <li>Sono garantite le libertà concesse dal regolamento scolastico</li>
+                    <li>Il qui presente Statuto può essere modificato solo su iniziativa presidenziale e solo dopo il consenso dei ministeri</li>
+                </ol>
+            </section>
+        </main>
+        <div id="footer"></div>
+        <script>
+            load_element("../interface-elements/footer.html").then(footer => {document.getElementById("footer").innerHTML = footer;});
+        </script>
+    </body>
+</html>

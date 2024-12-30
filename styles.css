@@ -1,28 +1,33 @@
-/*Generale*/
 :root {
     --background-color: rgb(206, 202, 202);
     --text-color: black;
     --titles-color: rgb(58, 153, 185);
     --elements-color: brown;
 }
+
 body {
     background-color: var(--background-color);
     color: var(--text-color)
 }
+
 a {
     color: var(--elements-color);
 }
+
 a:hover {
     color:var(--titles-color)
 }
+
 #Titolo{
     flex: 1 1 auto;
     margin: 0px;
     text-align: center;
 }
+
 .sottotitolo {
     color:var(--titles-color);
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -31,12 +36,14 @@ header {
     height: auto;
     color:var(--titles-color);
 }
+
 #github-page{
     flex: 1 0;
     margin-left: auto;
     margin-right: auto;
     max-width: fit-content;
 }
+
 #github-page img{
     width: 15vw;
     margin-left: auto;
@@ -44,17 +51,20 @@ header {
     max-width: 60px;
     height: auto;
 }
+
 #Titolo a{
     color: var(--titles-color);
     text-decoration: none;
 }
+
 #Titolo a:hover{
     color:rgb(0, 145, 255)
 }
+
 footer {
     font-size: 13px;
 }
-/*Main home*/
+
 .giorni{
     display: flex;
     width: 100%;
@@ -72,13 +82,26 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
-/*Orario e nomi memoriale*/
+
 .materia {
     color: var(--elements-color);
 }
 
 #memoriale {
     background-color:rgb(192, 216, 216);
+    padding: 20px;
+    margin:auto;
+    max-width: fit-content;
+    border-radius: 50px;
+}
+
+hr {
+    border: 1px solid var(--elements-color);
+    width: 50%;
+}
+
+#statuto {
+    background-color:rgb(200, 205, 167);
     padding: 20px;
     margin:auto;
     max-width: fit-content;
